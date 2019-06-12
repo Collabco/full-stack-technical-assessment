@@ -1,0 +1,18 @@
+<h1>Courses</h1>
+
+<p>Here is a list of courses you may be interested in.</p>
+
+<p *ngIf="!courses"><em>Loading...</em></p>
+
+<table class='table' *ngIf="courses">
+  <thead>
+    <tr>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let course of courses">
+      <td>{{ course.name }}</td>
+    </tr>
+  </tbody>
+</table>
