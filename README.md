@@ -50,25 +50,26 @@ In this instance, course data is available over a web service - https://collabco
 
 As with all integrations, availability of third party services can have impacts on our applications so be cautious of errors....
 
-With this project we would like to forefil the following user stories:
+With this project we would like to fulfill the following user stories:
 1. As a user I must be able to view a list of all courses
-2. As a user I must be able tivew the course name, a short description, a start date and the duration in months
+2. As a user I must be able to view the course name, a short description, a start date and the duration in months
 3. As a user I should be able to filter based on start date
 4. As a user I should be able to filter based on name
 5. As a user I could be able to view a more detailed description of the course
 
 ## Project
 Within the existing project you will find the following:
-1. Myday.Course.App
-This is a dotnet core project hosting both a Angular SPA and WebApi endpoints
+1. **Myday.Course.App**
+This is a dotnet core project hosting both a Angular SPA and WebApi endpoints.
 To run the project, either click debug in Visual Studio or VS Code or run the following from the command line in the directory:     
     ``` 
      npm i
 	dotnet restore
 	dotnet run
 	```
-2. Myday.Course.App.Tests
-This is a xUnit test project setup to run unit tests on the Myday.Course.App project
+
+2. **Myday.Course.App.Tests**
+This is a xUnit test project setup to run unit tests on the Myday.Course.App project.
 To run the project, either use Visual Studio Test Explorer or run the following commands from the command line in the directory:
     ```
 	dotnet restore
